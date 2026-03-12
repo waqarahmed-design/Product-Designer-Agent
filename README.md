@@ -9,7 +9,7 @@ A senior product designer agent for [Claude Code](https://claude.ai/claude-code)
 ### Agent
 **`product-designer`** — Activates for any change that touches the visual or interactive layer. Designs, implements, and reviews UI/UX with strong opinions and token compliance enforcement.
 
-### 13 Specialized Skills
+### 15 Specialized Skills
 
 | Skill | What it covers |
 |-------|---------------|
@@ -23,6 +23,8 @@ A senior product designer agent for [Claude Code](https://claude.ai/claude-code)
 | **research-discovery** | User research, heuristic evaluation, competitive analysis, persona/journey mapping, JTBD |
 | **technical-tools** | Design tools (Figma, Sketch), frontend knowledge (HTML/CSS/JS), design-dev collaboration, Git |
 | **tailwind-design-system** | Tailwind CSS v4, design tokens, component libraries, responsive patterns, dark mode |
+| **business-knowledge** | Business models, unit economics, KPIs, funnels, growth loops, pricing, churn, OKRs, competitive intelligence, regulatory compliance |
+| **aidlc** | AI Design Lifecycle — AI product strategy, AI UX patterns (chatbots, copilots, prompts), AI states (streaming, hallucination), AI safety/ethics, AI personalization, emerging AI patterns, AI technical collaboration |
 | **skill-creator** | Guide for creating new skills to extend the agent's capabilities |
 
 ---
@@ -88,8 +90,11 @@ Example mappings:
 - New screen → `frontend-design` + `ui-design` + `ux-design` + `design-specializations`
 - Animation work → `microinteractions-animation`
 - Small color/spacing tweak → `ui-design`
-- Feature scoping → `planning-strategy`
+- Feature scoping → `planning-strategy` + `business-knowledge`
 - UX audit → `research-discovery` + `ui-design` + `ux-design`
+- Pricing page design → `business-knowledge` + `ui-design`
+- AI chatbot or copilot UI → `aidlc` + `ux-design`
+- AI streaming/loading states → `aidlc` + `microinteractions-animation`
 
 ### Token Compliance
 The agent enforces strict token compliance. It flags and fixes:

@@ -85,14 +85,34 @@ You have access to these skills. Before starting **any** task, scan this matrix 
 | Component library — new variant, pattern, or deprecation | `visual-design` + `ui-design` |
 | Design language, style guide, brand expression | `visual-design` + `frontend-design` |
 | **Strategy & planning** | |
-| Feature scoping — what's in, what's out, what's MVP | `planning-strategy` |
-| Prioritisation — what to build next | `planning-strategy` |
-| Roadmap or sequencing decisions | `planning-strategy` |
-| Defining success metrics or KPIs for a feature | `planning-strategy` |
+| Feature scoping — what's in, what's out, what's MVP | `planning-strategy` + `business-knowledge` |
+| Prioritisation — what to build next | `planning-strategy` + `business-knowledge` |
+| Roadmap or sequencing decisions | `planning-strategy` + `business-knowledge` |
+| Defining success metrics or KPIs for a feature | `planning-strategy` + `business-knowledge` |
 | Navigation structure or content hierarchy decisions | `planning-strategy` + `ux-design` |
+| **Business & growth** | |
+| Business model, revenue model, pricing strategy | `business-knowledge` |
+| Unit economics, CAC, LTV, churn analysis | `business-knowledge` |
+| Growth loops, conversion optimization, onboarding metrics | `business-knowledge` |
+| Upselling, cross-selling, pricing page design | `business-knowledge` + `ui-design` |
+| Executive presentation, business case, ROI | `business-knowledge` |
+| OKRs, KPIs, success metrics alignment | `business-knowledge` + `planning-strategy` |
+| Market analysis, competitive intelligence | `business-knowledge` + `research-discovery` |
+| Regulatory compliance (GDPR, CCPA, accessibility laws) | `business-knowledge` + `ux-design` |
+| **AI design (AIDLC)** | |
+| AI feature strategy, use case identification, AI roadmapping | `aidlc` + `planning-strategy` |
+| AI UX patterns (chatbot, copilot, prompt interface, suggestion UI) | `aidlc` + `ux-design` |
+| AI interaction design (streaming, multi-turn, regeneration) | `aidlc` + `microinteractions-animation` |
+| AI states and edge cases (loading, hallucination, rate limiting) | `aidlc` + `ux-design` |
+| AI safety, ethics, bias, content moderation | `aidlc` |
+| AI personalization, adaptive UI, recommendations | `aidlc` + `ui-design` |
+| AI onboarding, trust design, transparency | `aidlc` + `ux-design` |
+| AI quality evaluation, testing, metrics | `aidlc` + `research-discovery` |
+| AI technical collaboration (prompts, RAG, tokens, APIs) | `aidlc` |
+| Emerging AI patterns (agents, generative UI, multimodal, voice) | `aidlc` + `design-specializations` |
 | **Research & discovery** | |
 | UX audit / heuristic evaluation of a screen or flow | `research-discovery` + `ui-design` + `ux-design` |
-| Competitive analysis — how do other apps handle this? | `research-discovery` |
+| Competitive analysis — how do other apps handle this? | `research-discovery` + `business-knowledge` |
 | Understanding user mental models or pain points | `research-discovery` + `ux-design` |
 | Evaluating design quality or identifying problems | `research-discovery` + `ui-design` |
 | **Platform / web** | |
@@ -142,6 +162,12 @@ Apply when making navigation decisions, IA choices, feature scoping, prioritisat
 
 ### `research-discovery` — Research & Evaluation
 Apply when auditing UX quality, doing competitive analysis, evaluating design decisions, or understanding user needs. Covers heuristic evaluation, usability testing, persona/journey/empathy mapping, affinity mapping, JTBD, insight synthesis.
+
+### `business-knowledge` — Business & Growth
+Apply when making product decisions that involve business models, revenue, pricing, KPIs, funnels, retention, growth loops, conversion, churn, upselling, executive communication, OKRs, ROI, competitive intelligence, or regulatory compliance. Covers Business Model Canvas, unit economics (CAC/LTV), pirate metrics (AARRR), north star metric, RICE scoring, pricing page design, and stakeholder communication.
+
+### `aidlc` — AI Design Lifecycle
+Apply when designing any AI/ML-powered feature. Covers the full AI design lifecycle: AI product strategy (use case identification, capabilities assessment, AI business models), AI-specific research (trust, mental models, prompt behavior), AI UX patterns (conversational UI, copilots, prompt interfaces, suggestion UI, transparency, confidence indicators), AI states and edge cases (streaming, hallucination, rate limiting, moderation), AI safety and ethics (bias, consent, privacy, watermarking), AI personalization (adaptive UI, recommendations, feedback loops), emerging patterns (agents, generative UI, multimodal, voice), and AI technical collaboration (prompt engineering, RAG, tokens, APIs).
 
 ---
 
