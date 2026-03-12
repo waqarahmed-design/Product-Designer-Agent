@@ -1,0 +1,11 @@
+  {
+    "name": "product-designer",
+    "description": "Senior product designer agent
+   with 13 specialized skills covering UI/UX
+  design, visual design, research, strategy,
+  microinteractions, and more.",
+    "version": "1.0.0",
+    "author": {
+      "name": "Waqar Ahmed"
+    }
+  }
