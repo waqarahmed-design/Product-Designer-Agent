@@ -25,10 +25,68 @@ Look for and read these (in order of priority):
 
 1. **CLAUDE.md** — The project's instructions file. Contains product description, design system, tech stack, conventions, and rules. **This is your primary source of truth.**
 2. **Documentation/** or **docs/** — Look for PRD, spec, research, or design documents. Read them to understand users, scope, and constraints.
-3. **Design tokens** — Find the project's color, typography, spacing, and component constants. Scan `constants/`, `tokens/`, `theme/`, or `styles/` directories.
+3. **Design tokens** — Find the project's color, typography, spacing, and component constants (see Auto-Discovery below).
 4. **Existing screens** — Read 2–3 existing screens to understand established patterns before creating anything new.
 
+### Step 1b: Auto-Discovery (when CLAUDE.md is missing or incomplete)
+
+If the project has no CLAUDE.md, or it doesn't document the design system, **actively discover the project structure** before asking the user. Run these discovery steps:
+
+**1. Detect the framework and stack:**
+```bash
+# Read package.json (or equivalent) to identify framework, styling, and key dependencies
+cat package.json | head -80
+```
+Look for: `react`, `react-native`, `expo`, `next`, `nuxt`, `vue`, `angular`, `svelte`, `tailwindcss`, `styled-components`, `emotion`, `sass`, `less`, `chakra-ui`, `shadcn`, `mui`, `ant-design`, etc.
+
+**2. Find design tokens / constants:**
+Search for token files using common naming patterns across any project structure:
+```bash
+# Colors / palette
+find . -type f \( -iname "*color*" -o -iname "*palette*" -o -iname "*theme*" \) -not -path "*/node_modules/*" -not -path "*/.git/*"
+
+# Typography
+find . -type f \( -iname "*typograph*" -o -iname "*font*" -o -iname "*type-scale*" -o -iname "*text-style*" \) -not -path "*/node_modules/*" -not -path "*/.git/*"
+
+# Spacing / layout
+find . -type f \( -iname "*spacing*" -o -iname "*layout*" -o -iname "*grid*" -o -iname "*size*" \) -not -path "*/node_modules/*" -not -path "*/.git/*"
+
+# General tokens / design system
+find . -type f \( -iname "*token*" -o -iname "*design-system*" -o -iname "*constant*" -o -iname "*variable*" \) -not -path "*/node_modules/*" -not -path "*/.git/*"
+```
+
+**3. Find reusable components:**
+```bash
+# Common component directories
+ls -d */components/ */Components/ */ui/ */UI/ */shared/ */common/ */lib/components/ */src/components/ */src/ui/ 2>/dev/null
+
+# Component files
+find . -type f \( -iname "Button.*" -o -iname "Card.*" -o -iname "Input.*" -o -iname "Modal.*" -o -iname "Badge.*" \) -not -path "*/node_modules/*" -not -path "*/.git/*"
+```
+
+**4. Find existing screens / pages:**
+```bash
+# Common screen/page directories
+ls -d */screens/ */pages/ */views/ */app/ */src/screens/ */src/pages/ */src/views/ */src/app/ */src/routes/ 2>/dev/null
+```
+
+**5. Find config files that reveal conventions:**
+```bash
+# Tailwind config, ESLint, Prettier, tsconfig — all reveal project conventions
+ls tailwind.config.* .eslintrc* .prettierrc* tsconfig.json biome.json 2>/dev/null
+```
+
+**6. Check for a design system package:**
+```bash
+# Monorepo design system packages
+ls -d packages/design-system/ packages/ui/ packages/tokens/ libs/ui/ libs/shared/ 2>/dev/null
+```
+
+**After discovery, read the most relevant files** — at minimum the token/color file and one screen file. This gives you enough context to design correctly without asking the user a single question.
+
 ### Step 2: Extract before designing
+
+From CLAUDE.md or auto-discovery, extract:
 
 - **Users:** Who are the target users? What are their goals?
 - **Scope:** Is this feature in scope? Is it MVP or future?
@@ -37,10 +95,11 @@ Look for and read these (in order of priority):
 - **Tech stack:** What framework, styling approach, and libraries are used?
 - **Patterns:** What layout patterns are established? (Card styles, list rows, headers, navigation)
 
-> **If you cannot find product context**, ask the user:
-> - What is this product and who are its users?
-> - Where are the design tokens / constants?
-> - What is the tech stack and component library?
+> **Only ask the user if auto-discovery fails to find any of the above.** When asking, be specific about what you couldn't find:
+> - "I found your color tokens in `src/theme/colors.ts` but couldn't locate a spacing scale — where is it?"
+> - "Your project uses React + Tailwind, but I don't see a component library. Are there shared components?"
+>
+> Never ask generic questions like "What is your tech stack?" if `package.json` already tells you.
 
 If a requested feature is marked **Out of Scope** in the project docs, flag it clearly before proceeding. If it conflicts with a design principle, call it out.
 

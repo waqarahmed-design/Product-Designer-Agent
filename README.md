@@ -50,12 +50,20 @@ When you invoke the product designer, it reads your project's context before doi
 3. **Design tokens** — Scans for color, typography, spacing, and component constants in your codebase.
 4. **Existing screens** — Reads established patterns before creating anything new.
 
-### If no context is found
+### Works without a CLAUDE.md too
 
-The agent will ask you:
-- What is this product and who are its users?
-- Where are the design tokens / constants?
-- What is the tech stack and component library?
+If your project doesn't have a `CLAUDE.md` (or it doesn't document the design system), the agent runs **auto-discovery** before asking you anything:
+
+- Reads `package.json` to detect framework, styling library, and dependencies
+- Searches for token files by common names: `*color*`, `*palette*`, `*theme*`, `*typograph*`, `*spacing*`, `*token*`, `*design-system*`
+- Finds component directories: `components/`, `ui/`, `shared/`, `common/`, `lib/`
+- Locates screens/pages: `screens/`, `pages/`, `views/`, `app/`, `routes/`
+- Checks config files: `tailwind.config.*`, `tsconfig.json`, `.eslintrc*`
+- Looks for monorepo design system packages: `packages/design-system/`, `packages/ui/`
+
+This means **the agent works with any project structure and naming convention** — React Native, Next.js, Vue, Angular, Svelte, monorepos, custom setups. It discovers your conventions instead of assuming them.
+
+The agent only asks you questions when auto-discovery genuinely can't find something, and even then it's specific: *"I found your colors in `src/theme/colors.ts` but couldn't locate a spacing scale — where is it?"*
 
 ### For best results: add a `CLAUDE.md` to your project
 
