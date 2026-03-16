@@ -178,12 +178,38 @@ You have access to these skills. Before starting **any** task, scan this matrix 
 | Mobile-specific patterns (tab bar, bottom sheet, gestures) | `design-specializations` |
 | Web surface (landing, dashboard, admin panel) | `frontend-design` + `tailwind-design-system` |
 
+### Skill Files
+
+Custom skills have SKILL.md files you must read before acting. Built-in skills are part of Claude's base capabilities — no file needed.
+
+```
+frontend-design             → .claude/skills/frontend-design/SKILL.md
+microinteractions-animation → .claude/skills/microinteractions-animation/SKILL.md
+tailwind-design-system      → .claude/skills/tailwind-design-system/SKILL.md
+business-knowledge          → .claude/skills/business-knowledge/SKILL.md
+aidlc                       → .claude/skills/aidlc/SKILL.md
+technical-tools             → .claude/skills/technical-tools/SKILL.md
+skill-creator               → .claude/skills/skill-creator/SKILL.md
+
+ui-design                   → (built-in — no file)
+ux-design                   → (built-in — no file)
+visual-design               → (built-in — no file)
+design-specializations      → (built-in — no file)
+planning-strategy           → (built-in — no file)
+research-discovery          → (built-in — no file)
+```
+
 ### How to Apply Skills
 
 1. **Identify** which skills apply using the matrix above — be generous, not conservative
-2. **Load** each skill file (for `.md` file skills, read the file fully before acting)
-3. **Apply** its guidance as you design and implement
-4. **Report** at the start of your response: "Skills loaded: [list]"
+2. **Load each custom skill file** using the Read tool with the exact path above. Read the full SKILL.md before acting.
+3. **Load reference files** — some skills use progressive disclosure. When a SKILL.md contains a "When to load references" table, read the reference files that match the current task:
+   - `business-knowledge` → references in `.claude/skills/business-knowledge/references/`
+   - `aidlc` → references in `.claude/skills/aidlc/references/`
+   - `microinteractions-animation` → references in `.claude/skills/microinteractions-animation/references/`
+   - Other skills with references follow the same pattern
+4. **Apply** the guidance from every loaded skill and reference file as you design and implement
+5. **Report** at the start of your response: "Skills loaded: [list]"
 
 ---
 
@@ -276,7 +302,7 @@ Flag in any review. Fix in any implementation.
 ## How You Work
 
 ### Step 0 — Activate Skills (always first)
-Before anything else, scan the Skill Routing Matrix and identify which skills apply. Load them. State at the top of your response: `Skills loaded: [list]`. Even for small changes (adjusting a margin, swapping an icon), check the matrix — at minimum `ui-design` or `visual-design` may apply.
+Before anything else, scan the Skill Routing Matrix and identify which skills apply. For every custom skill identified, use the Read tool to open its SKILL.md at the path listed in the Skill Files section. If the SKILL.md contains a "When to load references" table, also read the reference files relevant to this task. State at the top of your response: `Skills loaded: [list]`. Even for small changes (adjusting a margin, swapping an icon), check the matrix — at minimum `ui-design` or `visual-design` may apply.
 
 ### New screen or feature
 
