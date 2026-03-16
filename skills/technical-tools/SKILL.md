@@ -11,31 +11,31 @@ Technical fluency for designers — from mastering the primary toolchain to unde
 
 | Question | Reference |
 |----------|-----------|
-| How do I work effectively in Figma? | `references/design-tools.md` → Figma |
-| How do I use Sketch? | `references/design-tools.md` → Sketch |
-| How do I use Adobe XD? | `references/design-tools.md` → Adobe XD |
-| How do I prototype in Framer? | `references/design-tools.md` → Framer |
-| How do I build advanced interactions in ProtoPie? | `references/design-tools.md` → ProtoPie |
-| How do I animate in Principle? | `references/design-tools.md` → Principle |
-| How do I create motion in After Effects? | `references/design-tools.md` → After Effects |
-| How do I use Illustrator for design work? | `references/design-tools.md` → Illustrator |
-| How do I use Photoshop in a design workflow? | `references/design-tools.md` → Photoshop |
-| How does HTML/CSS structure relate to design? | `references/frontend-knowledge.md` → HTML/CSS Fundamentals |
-| How does responsive CSS work? | `references/frontend-knowledge.md` → Responsive CSS |
-| How do CSS animations and transitions work? | `references/frontend-knowledge.md` → CSS Animations |
-| What JavaScript concepts do designers need? | `references/frontend-knowledge.md` → JavaScript Basics |
-| How do component-based frameworks affect design? | `references/frontend-knowledge.md` → React/Vue/Angular |
-| How do I prepare designs for developer handoff? | `references/frontend-knowledge.md` → Design-to-Code Handoff |
-| How do I inspect designs in the browser? | `references/frontend-knowledge.md` → Browser DevTools |
-| How do I use Git as a designer? | `references/design-dev-collaboration.md` → Version Control |
-| How do I automate design tokens? | `references/design-dev-collaboration.md` → Design APIs |
-| How do I integrate with component libraries? | `references/design-dev-collaboration.md` → Component Libraries |
-| How do I QA an implemented design? | `references/design-dev-collaboration.md` → Design QA |
-| How do I design within technical constraints? | `references/design-dev-collaboration.md` → Technical Constraints |
-| How do I design for AR/VR? | `references/emerging-tech.md` → AR/VR Design |
-| How do I design voice interfaces? | `references/emerging-tech.md` → Voice Interface Design |
-| How do I design AI/ML features? | `references/emerging-tech.md` → AI/ML Integration |
-| How do I design for gesture/touch-less control? | `references/emerging-tech.md` → Gesture Control |
+| How do I work effectively in Figma? | `.claude/skills/technical-tools/design-tools.md` → Figma |
+| How do I use Sketch? | `.claude/skills/technical-tools/design-tools.md` → Sketch |
+| How do I use Adobe XD? | `.claude/skills/technical-tools/design-tools.md` → Adobe XD |
+| How do I prototype in Framer? | `.claude/skills/technical-tools/design-tools.md` → Framer |
+| How do I build advanced interactions in ProtoPie? | `.claude/skills/technical-tools/design-tools.md` → ProtoPie |
+| How do I animate in Principle? | `.claude/skills/technical-tools/design-tools.md` → Principle |
+| How do I create motion in After Effects? | `.claude/skills/technical-tools/design-tools.md` → After Effects |
+| How do I use Illustrator for design work? | `.claude/skills/technical-tools/design-tools.md` → Illustrator |
+| How do I use Photoshop in a design workflow? | `.claude/skills/technical-tools/design-tools.md` → Photoshop |
+| How does HTML/CSS structure relate to design? | `.claude/skills/technical-tools/frontend-knowledge.md` → HTML/CSS Fundamentals |
+| How does responsive CSS work? | `.claude/skills/technical-tools/frontend-knowledge.md` → Responsive CSS |
+| How do CSS animations and transitions work? | `.claude/skills/technical-tools/frontend-knowledge.md` → CSS Animations |
+| What JavaScript concepts do designers need? | `.claude/skills/technical-tools/frontend-knowledge.md` → JavaScript Basics |
+| How do component-based frameworks affect design? | `.claude/skills/technical-tools/frontend-knowledge.md` → React/Vue/Angular |
+| How do I prepare designs for developer handoff? | `.claude/skills/technical-tools/frontend-knowledge.md` → Design-to-Code Handoff |
+| How do I inspect designs in the browser? | `.claude/skills/technical-tools/frontend-knowledge.md` → Browser DevTools |
+| How do I use Git as a designer? | `.claude/skills/technical-tools/design-dev-collaboration.md` → Version Control |
+| How do I automate design tokens? | `.claude/skills/technical-tools/design-dev-collaboration.md` → Design APIs |
+| How do I integrate with component libraries? | `.claude/skills/technical-tools/design-dev-collaboration.md` → Component Libraries |
+| How do I QA an implemented design? | `.claude/skills/technical-tools/design-dev-collaboration.md` → Design QA |
+| How do I design within technical constraints? | `.claude/skills/technical-tools/design-dev-collaboration.md` → Technical Constraints |
+| How do I design for AR/VR? | `.claude/skills/technical-tools/emerging-tech.md` → AR/VR Design |
+| How do I design voice interfaces? | `.claude/skills/technical-tools/emerging-tech.md` → Voice Interface Design |
+| How do I design AI/ML features? | `.claude/skills/technical-tools/emerging-tech.md` → AI/ML Integration |
+| How do I design for gesture/touch-less control? | `.claude/skills/technical-tools/emerging-tech.md` → Gesture Control |
 
 ## Domain Sequencing
 
@@ -62,7 +62,7 @@ Emerging Technologies (design for what's next)
 
 ## Reference Files
 
-- **Design tools** — Read `references/design-tools.md` for: Figma, Sketch, Adobe XD, Framer, ProtoPie, Principle, After Effects, Illustrator, Photoshop
-- **Front-end knowledge** — Read `references/frontend-knowledge.md` for: HTML/CSS, responsive CSS, CSS animations, JavaScript, React/Vue/Angular, handoff, DevTools
-- **Design-dev collaboration** — Read `references/design-dev-collaboration.md` for: Git, design APIs, component libraries, design QA, technical constraints
-- **Emerging technologies** — Read `references/emerging-tech.md` for: AR/VR, voice interface, AI/ML, gesture control
+- **Design tools** — Read `.claude/skills/technical-tools/design-tools.md` for: Figma, Sketch, Adobe XD, Framer, ProtoPie, Principle, After Effects, Illustrator, Photoshop
+- **Front-end knowledge** — Read `.claude/skills/technical-tools/frontend-knowledge.md` for: HTML/CSS, responsive CSS, CSS animations, JavaScript, React/Vue/Angular, handoff, DevTools
+- **Design-dev collaboration** — Read `.claude/skills/technical-tools/design-dev-collaboration.md` for: Git, design APIs, component libraries, design QA, technical constraints
+- **Emerging technologies** — Read `.claude/skills/technical-tools/emerging-tech.md` for: AR/VR, voice interface, AI/ML, gesture control

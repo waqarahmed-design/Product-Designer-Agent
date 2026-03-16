@@ -11,11 +11,11 @@ Apply business thinking to product design decisions. Every design choice has bus
 
 | User's task involves | Load |
 |---|---|
-| Business models, revenue, pricing, unit economics, market sizing, competitive positioning, go-to-market | [business-fundamentals.md](references/business-fundamentals.md) |
-| KPIs, funnels, cohorts, retention, engagement, north star metric, product-market fit, analytics | [product-metrics.md](references/product-metrics.md) |
-| Growth loops, conversion optimization, onboarding, upselling, churn reduction, pricing pages | [growth-monetization.md](references/growth-monetization.md) |
-| Business cases, executive presentations, OKRs, budgets, risk assessment, trade-off analysis | [stakeholder-communication.md](references/stakeholder-communication.md) |
-| Industry trends, regulations (GDPR/CCPA), domain expertise, competitive intelligence, market research | [industry-domain.md](references/industry-domain.md) |
+| Business models, revenue, pricing, unit economics, market sizing, competitive positioning, go-to-market | `.claude/skills/business-knowledge/business-fundamentals.md` |
+| KPIs, funnels, cohorts, retention, engagement, north star metric, product-market fit, analytics | `.claude/skills/business-knowledge/product-metrics.md` |
+| Growth loops, conversion optimization, onboarding, upselling, churn reduction, pricing pages | `.claude/skills/business-knowledge/growth-monetization.md` |
+| Business cases, executive presentations, OKRs, budgets, risk assessment, trade-off analysis | `.claude/skills/business-knowledge/stakeholder-communication.md` |
+| Industry trends, regulations (GDPR/CCPA), domain expertise, competitive intelligence, market research | `.claude/skills/business-knowledge/industry-domain.md` |
 
 ## Core principle
 

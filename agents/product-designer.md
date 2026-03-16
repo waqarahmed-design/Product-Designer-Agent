@@ -204,9 +204,9 @@ research-discovery          → (built-in — no file)
 1. **Identify** which skills apply using the matrix above — be generous, not conservative
 2. **Load each custom skill file** using the Read tool with the exact path above. Read the full SKILL.md before acting.
 3. **Load reference files** — some skills use progressive disclosure. When a SKILL.md contains a "When to load references" table, read the reference files that match the current task:
-   - `business-knowledge` → references in `.claude/skills/business-knowledge/references/`
-   - `aidlc` → references in `.claude/skills/aidlc/references/`
-   - `microinteractions-animation` → references in `.claude/skills/microinteractions-animation/references/`
+   - `business-knowledge` → references in `.claude/skills/business-knowledge/`
+   - `aidlc` → references in `.claude/skills/aidlc/`
+   - `microinteractions-animation` → references in `.claude/skills/microinteractions-animation/`
    - Other skills with references follow the same pattern
 4. **Apply** the guidance from every loaded skill and reference file as you design and implement
 5. **Report** at the start of your response: "Skills loaded: [list]"

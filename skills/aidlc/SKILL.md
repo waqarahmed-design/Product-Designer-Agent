@@ -11,12 +11,12 @@ Design AI-powered experiences that are useful, trustworthy, and transparent. AI 
 
 | User's task involves | Load |
 |---|---|
-| AI feature strategy, use case identification, AI business models, AI competitive analysis, AI roadmapping | [ai-product-strategy.md](references/ai-product-strategy.md) |
-| Understanding AI user needs, trust research, AI mental models, AI anxiety, prompt research | [ai-research.md](references/ai-research.md) |
-| Conversational UI, prompt interfaces, copilot patterns, AI onboarding, transparency, explainability, suggestion UI, confidence indicators | [ai-design-patterns.md](references/ai-design-patterns.md) |
-| AI loading states, streaming UI, hallucination handling, error states, rate limiting, moderation, timeouts | [ai-states-quality.md](references/ai-states-quality.md) |
-| AI bias, fairness, consent, privacy, content moderation, watermarking, misuse prevention, AI ethics | [ai-safety-ethics.md](references/ai-safety-ethics.md) |
-| AI agents, generative UI, multimodal, AI personalization, adaptive UI, prompt engineering, RAG, AI technical collaboration | [ai-emerging-technical.md](references/ai-emerging-technical.md) |
+| AI feature strategy, use case identification, AI business models, AI competitive analysis, AI roadmapping | `.claude/skills/aidlc/ai-product-strategy.md` |
+| Understanding AI user needs, trust research, AI mental models, AI anxiety, prompt research | `.claude/skills/aidlc/ai-research.md` |
+| Conversational UI, prompt interfaces, copilot patterns, AI onboarding, transparency, explainability, suggestion UI, confidence indicators | `.claude/skills/aidlc/ai-design-patterns.md` |
+| AI loading states, streaming UI, hallucination handling, error states, rate limiting, moderation, timeouts | `.claude/skills/aidlc/ai-states-quality.md` |
+| AI bias, fairness, consent, privacy, content moderation, watermarking, misuse prevention, AI ethics | `.claude/skills/aidlc/ai-safety-ethics.md` |
+| AI agents, generative UI, multimodal, AI personalization, adaptive UI, prompt engineering, RAG, AI technical collaboration | `.claude/skills/aidlc/ai-emerging-technical.md` |
 
 ## Core principle
 

@@ -45,6 +45,6 @@ Visual Refinement (elevate execution quality)
 
 ## Reference Files
 
-- **Brand expression** — Read `references/brand-expression.md` for: brand system design, style guide creation, design language development, tone & voice, marketing design
-- **Design systems** — Read `references/design-systems.md` for: component library creation, design token definition, pattern library, documentation, versioning, governance
-- **Visual refinement** — Read `references/visual-refinement.md` for: pixel perfection, optical alignment, consistency auditing, polish & craft
+- **Brand expression** — Read `.claude/skills/visual-design/brand-expression.md` for: brand system design, style guide creation, design language development, tone & voice, marketing design
+- **Design systems** — Read `.claude/skills/visual-design/design-systems.md` for: component library creation, design token definition, pattern library, documentation, versioning, governance
+- **Visual refinement** — Read `.claude/skills/visual-design/visual-refinement.md` for: pixel perfection, optical alignment, consistency auditing, polish & craft

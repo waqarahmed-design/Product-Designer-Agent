@@ -49,5 +49,5 @@ Synthesis (at any phase)
 
 ## Reference Files
 
-- **User research methods** — Read `references/user-research.md` for: interviews, usability testing, ethnographic research, surveys, A/B testing, analytics, personas, journey mapping, empathy mapping, competitive analysis
-- **Research synthesis methods** — Read `references/research-synthesis.md` for: affinity mapping, insight generation, stakeholder interviews, JTBD framework, heuristic evaluation
+- **User research methods** — Read `.claude/skills/research-discovery/user-research.md` for: interviews, usability testing, ethnographic research, surveys, A/B testing, analytics, personas, journey mapping, empathy mapping, competitive analysis
+- **Research synthesis methods** — Read `.claude/skills/research-discovery/research-synthesis.md` for: affinity mapping, insight generation, stakeholder interviews, JTBD framework, heuristic evaluation

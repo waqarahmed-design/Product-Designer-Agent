@@ -71,6 +71,6 @@ Imagery & Illustration (define visual assets)
 
 ## Reference Files
 
-- **Visual hierarchy + layout** — Read `references/visual-hierarchy-layout.md` for: typographic hierarchy, spatial hierarchy, visual weight, emphasis, scanning patterns, grid systems, alignment, spacing systems, balance, negative space, containment, Gestalt principles
-- **Typography + color** — Read `references/typography-color.md` for: font selection, type scale, line height, typographic pairing, web font optimization, internationalization, readability, color psychology, color harmony, brand color systems, semantic color, tint/shade systems, color accessibility, dark mode design
-- **Iconography + imagery** — Read `references/iconography-imagery.md` for: icon design, icon system consistency, icon sizing, icon+text pairing, metaphor selection, photo curation, image optimization, illustration style, data visualization, empty state design, placeholder design
+- **Visual hierarchy + layout** — Read `.claude/skills/ui-design/visual-hierarchy-layout.md` for: typographic hierarchy, spatial hierarchy, visual weight, emphasis, scanning patterns, grid systems, alignment, spacing systems, balance, negative space, containment, Gestalt principles
+- **Typography + color** — Read `.claude/skills/ui-design/typography-color.md` for: font selection, type scale, line height, typographic pairing, web font optimization, internationalization, readability, color psychology, color harmony, brand color systems, semantic color, tint/shade systems, color accessibility, dark mode design
+- **Iconography + imagery** — Read `.claude/skills/ui-design/iconography-imagery.md` for: icon design, icon system consistency, icon sizing, icon+text pairing, metaphor selection, photo curation, image optimization, illustration style, data visualization, empty state design, placeholder design

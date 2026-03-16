@@ -64,7 +64,7 @@ Responsive & Adaptive (make it universal)
 
 ## Reference Files
 
-- **Interaction design** — Read `references/interaction-design.md` for: user flows, task flows, state design, edge cases, progressive disclosure, affordance design, feedback design, microcopy
-- **Wireframing & prototyping** — Read `references/wireframing-prototyping.md` for: low-fi wireframing, high-fi wireframing, interactive prototyping, rapid prototyping, paper prototyping, code-based prototyping
-- **Usability & accessibility** — Read `references/usability-accessibility.md` for: WCAG compliance, keyboard navigation, screen reader optimization, color contrast, focus management, inclusive design, cognitive load, error prevention, forgiveness design
-- **Responsive & adaptive design** — Read `references/responsive-adaptive.md` for: mobile-first design, breakpoint strategy, touch target sizing, responsive layout patterns, platform-specific patterns, cross-device continuity
+- **Interaction design** — Read `.claude/skills/ux-design/interaction-design.md` for: user flows, task flows, state design, edge cases, progressive disclosure, affordance design, feedback design, microcopy
+- **Wireframing & prototyping** — Read `.claude/skills/ux-design/wireframing-prototyping.md` for: low-fi wireframing, high-fi wireframing, interactive prototyping, rapid prototyping, paper prototyping, code-based prototyping
+- **Usability & accessibility** — Read `.claude/skills/ux-design/usability-accessibility.md` for: WCAG compliance, keyboard navigation, screen reader optimization, color contrast, focus management, inclusive design, cognitive load, error prevention, forgiveness design
+- **Responsive & adaptive design** — Read `.claude/skills/ux-design/responsive-adaptive.md` for: mobile-first design, breakpoint strategy, touch target sizing, responsive layout patterns, platform-specific patterns, cross-device continuity

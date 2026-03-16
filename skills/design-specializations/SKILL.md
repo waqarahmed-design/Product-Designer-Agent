@@ -11,25 +11,25 @@ Deep expertise in platform-specific, domain-specific, and emerging design discip
 
 | Question | Reference |
 |----------|-----------|
-| How do I follow iOS HIG conventions? | `references/mobile-design.md` → Native Patterns |
-| How do I follow Material Design 3? | `references/mobile-design.md` → Native Patterns |
-| How do I design touch interactions? | `references/mobile-design.md` → Touch Gestures |
-| How do I design tab bars and navigation? | `references/mobile-design.md` → Mobile Navigation |
-| How do I design push notifications? | `references/mobile-design.md` → Notification Design |
-| How do I design a first-time user experience? | `references/mobile-design.md` → Onboarding |
-| How do I design an app icon? | `references/mobile-design.md` → App Icon Design |
-| What content goes above the fold? | `references/web-design.md` → Above-the-Fold Strategy |
-| How do I design complex forms? | `references/web-design.md` → Form Design |
-| How do I design data-dense tables? | `references/web-design.md` → Table Design |
-| How do I design a dashboard? | `references/web-design.md` → Dashboard Design |
-| How do I design a product page or checkout? | `references/web-design.md` → E-commerce |
-| How do I design a reading/content experience? | `references/web-design.md` → Content-Heavy Sites |
-| How do I scale design processes? | `references/emerging-specializations.md` → Design Ops |
-| How do I design for marginalized users? | `references/emerging-specializations.md` → Inclusive Design |
-| How do I avoid dark patterns? | `references/emerging-specializations.md` → Ethical Design |
-| How do I reduce environmental impact? | `references/emerging-specializations.md` → Sustainable Design |
-| How do I map end-to-end service experiences? | `references/emerging-specializations.md` → Service Design |
-| How do I facilitate a design thinking workshop? | `references/emerging-specializations.md` → Design Thinking Facilitation |
+| How do I follow iOS HIG conventions? | `.claude/skills/design-specializations/mobile-design.md` → Native Patterns |
+| How do I follow Material Design 3? | `.claude/skills/design-specializations/mobile-design.md` → Native Patterns |
+| How do I design touch interactions? | `.claude/skills/design-specializations/mobile-design.md` → Touch Gestures |
+| How do I design tab bars and navigation? | `.claude/skills/design-specializations/mobile-design.md` → Mobile Navigation |
+| How do I design push notifications? | `.claude/skills/design-specializations/mobile-design.md` → Notification Design |
+| How do I design a first-time user experience? | `.claude/skills/design-specializations/mobile-design.md` → Onboarding |
+| How do I design an app icon? | `.claude/skills/design-specializations/mobile-design.md` → App Icon Design |
+| What content goes above the fold? | `.claude/skills/design-specializations/web-design.md` → Above-the-Fold Strategy |
+| How do I design complex forms? | `.claude/skills/design-specializations/web-design.md` → Form Design |
+| How do I design data-dense tables? | `.claude/skills/design-specializations/web-design.md` → Table Design |
+| How do I design a dashboard? | `.claude/skills/design-specializations/web-design.md` → Dashboard Design |
+| How do I design a product page or checkout? | `.claude/skills/design-specializations/web-design.md` → E-commerce |
+| How do I design a reading/content experience? | `.claude/skills/design-specializations/web-design.md` → Content-Heavy Sites |
+| How do I scale design processes? | `.claude/skills/design-specializations/emerging-specializations.md` → Design Ops |
+| How do I design for marginalized users? | `.claude/skills/design-specializations/emerging-specializations.md` → Inclusive Design |
+| How do I avoid dark patterns? | `.claude/skills/design-specializations/emerging-specializations.md` → Ethical Design |
+| How do I reduce environmental impact? | `.claude/skills/design-specializations/emerging-specializations.md` → Sustainable Design |
+| How do I map end-to-end service experiences? | `.claude/skills/design-specializations/emerging-specializations.md` → Service Design |
+| How do I facilitate a design thinking workshop? | `.claude/skills/design-specializations/emerging-specializations.md` → Design Thinking Facilitation |
 
 ## Domain Sequencing
 
@@ -49,6 +49,6 @@ Emerging Specializations (expanding the practice)
 
 ## Reference Files
 
-- **Mobile design** — Read `references/mobile-design.md` for: iOS HIG, Material Design, touch gestures, navigation, notifications, onboarding, app icons
-- **Web design** — Read `references/web-design.md` for: above-the-fold, forms, tables, dashboards, e-commerce, content-heavy sites
-- **Emerging specializations** — Read `references/emerging-specializations.md` for: Design Ops, inclusive design, ethical design, sustainable design, service design, design thinking facilitation
+- **Mobile design** — Read `.claude/skills/design-specializations/mobile-design.md` for: iOS HIG, Material Design, touch gestures, navigation, notifications, onboarding, app icons
+- **Web design** — Read `.claude/skills/design-specializations/web-design.md` for: above-the-fold, forms, tables, dashboards, e-commerce, content-heavy sites
+- **Emerging specializations** — Read `.claude/skills/design-specializations/emerging-specializations.md` for: Design Ops, inclusive design, ethical design, sustainable design, service design, design thinking facilitation

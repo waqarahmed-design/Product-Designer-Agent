@@ -47,6 +47,6 @@ Project Planning (define how to execute)
 
 ## Reference Files
 
-- **Product strategy** — Read `references/product-strategy.md` for: problem definition, opportunity assessment, feature prioritization, roadmap planning, success metrics, value proposition design
-- **Information architecture** — Read `references/information-architecture.md` for: content strategy, site mapping, taxonomy design, navigation design, search design, mental model mapping
-- **Project planning** — Read `references/project-planning.md` for: design scoping, resource planning, risk assessment, design sprint facilitation, workshop facilitation
+- **Product strategy** — Read `.claude/skills/planning-strategy/product-strategy.md` for: problem definition, opportunity assessment, feature prioritization, roadmap planning, success metrics, value proposition design
+- **Information architecture** — Read `.claude/skills/planning-strategy/information-architecture.md` for: content strategy, site mapping, taxonomy design, navigation design, search design, mental model mapping
+- **Project planning** — Read `.claude/skills/planning-strategy/project-planning.md` for: design scoping, resource planning, risk assessment, design sprint facilitation, workshop facilitation

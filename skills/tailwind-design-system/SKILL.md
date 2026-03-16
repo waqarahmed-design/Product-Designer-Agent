@@ -7,7 +7,7 @@ description: Build scalable design systems with Tailwind CSS v4, design tokens, 
 
 Build production-ready design systems with Tailwind CSS v4, including CSS-first configuration, design tokens, component variants, responsive patterns, and accessibility.
 
-> **Note**: This skill targets Tailwind CSS v4 (2024+). For v3 projects, refer to the migration checklist in `references/advanced-v4.md`.
+> **Note**: This skill targets Tailwind CSS v4 (2024+). For v3 projects, refer to the migration checklist in `.claude/skills/tailwind-design-system/advanced-v4.md`.
 
 ## Key v4 Changes
 
@@ -146,5 +146,5 @@ export const disabled = "disabled:pointer-events-none disabled:opacity-50";
 
 ## Reference Files
 
-- **Component patterns** — Read `references/patterns.md` for: CVA button, compound card, form components, responsive grid, native CSS animations, dark mode provider
-- **Advanced patterns + migration** — Read `references/advanced-v4.md` for: custom utilities, theme modifiers, namespace overrides, semi-transparent colors, container queries, v3→v4 migration checklist, best practices
+- **Component patterns** — Read `.claude/skills/tailwind-design-system/patterns.md` for: CVA button, compound card, form components, responsive grid, native CSS animations, dark mode provider
+- **Advanced patterns + migration** — Read `.claude/skills/tailwind-design-system/advanced-v4.md` for: custom utilities, theme modifiers, namespace overrides, semi-transparent colors, container queries, v3→v4 migration checklist, best practices
