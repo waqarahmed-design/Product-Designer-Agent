@@ -9,7 +9,7 @@ A senior product designer agent for [Claude Code](https://claude.ai/claude-code)
 ### Agent
 **`product-designer`** — Activates for any change that touches the visual or interactive layer. Designs, implements, and reviews UI/UX with strong opinions and token compliance enforcement.
 
-### 15 Specialized Skills
+### 13 Specialized Skills
 
 | Skill | What it covers |
 |-------|---------------|
