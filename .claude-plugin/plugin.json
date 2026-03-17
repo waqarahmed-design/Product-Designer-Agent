@@ -1,8 +1,8 @@
-  {
-    "name": "product-designer",
-    "description": "Senior product designer agent with 13 specialized skills covering UI/UX design, visual design, research, strategy, microinteractions, business knowledge, AI design lifecycle, and more.",
-    "version": "1.1.0",
-    "author": {
-      "name": "Waqar Ahmed"
-    }
+{
+  "name": "product-designer",
+  "description": "Senior product designer agent with 14 specialized skills covering UI/UX design, visual design, research, strategy, microinteractions, business knowledge, AI design lifecycle, and more. Includes ui-ux-pro-max (50+ styles, 161 palettes, 57 font pairings), a new project bootstrap protocol that asks clarifying questions and scaffolds tokens/icons/components, automatic project state detection (MATURE/PARTIAL/NEW), and a rebuilt ux-design skill with 115 named rules and pre-delivery checklists.",
+  "version": "1.2.0",
+  "author": {
+    "name": "Waqar Ahmed"
   }
+}
