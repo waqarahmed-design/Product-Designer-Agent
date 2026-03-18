@@ -1,6 +1,6 @@
 ---
 name: research-discovery
-description: UX research and discovery skill covering user research methods and research synthesis. Use when planning or conducting user research, usability testing, A/B testing, survey design, persona development, journey mapping, empathy mapping, competitive analysis, ethnographic research, or analytics interpretation. Also use when synthesizing research findings via affinity mapping, insight generation, stakeholder interviews, jobs-to-be-done framework, or heuristic evaluation. Triggers on: user research, usability test, interview guide, research plan, persona, journey map, empathy map, competitive analysis, A/B test, survey, analytics, affinity map, insight synthesis, heuristic evaluation, JTBD.
+description: "UX research and discovery skill covering user research methods and research synthesis. Use when planning or conducting user research, usability testing, A/B testing, survey design, persona development, journey mapping, empathy mapping, competitive analysis, ethnographic research, or analytics interpretation. Also use when synthesizing research findings via affinity mapping, insight generation, stakeholder interviews, jobs-to-be-done framework, or heuristic evaluation. Triggers on: user research, usability test, interview guide, research plan, persona, journey map, empathy map, competitive analysis, A/B test, survey, analytics, affinity map, insight synthesis, heuristic evaluation, JTBD."
 ---
 
 # Research & Discovery
