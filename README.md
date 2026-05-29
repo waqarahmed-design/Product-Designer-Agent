@@ -6,6 +6,16 @@ It thinks like a designer but communicates in code. It handles UI/UX design, des
 
 ---
 
+## Installation
+
+```bash
+claude /install https://github.com/waqarahmed-design/Product-Designer-Agent
+```
+
+That's it. The agent, the `/sync-design-system` slash command, and all 14 skills are available in your Claude Code immediately.
+
+---
+
 ## What's new in v1.3.0
 
 The agent now **manages two files in every repo it runs in**:
@@ -46,16 +56,6 @@ A new slash command — **`/sync-design-system`** — lets you trigger a full re
 | **business-knowledge** | Business models, unit economics, KPIs, funnels, growth loops, pricing, churn, OKRs. |
 | **aidlc** | AI Design Lifecycle — AI product strategy, AI UX patterns, AI states, AI safety, AI personalization. |
 | **skill-creator** | Guide for creating new skills to extend the agent. |
-
----
-
-## Installation
-
-```bash
-claude /install https://github.com/waqarahmed-design/Product-Designer-Agent
-```
-
-That's it. The agent, the slash command, and all 14 skills are available in your Claude Code immediately.
 
 ---
 
