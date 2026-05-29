@@ -1,7 +1,7 @@
 {
   "name": "product-designer",
-  "description": "Senior product designer agent with 14 specialized skills covering UI/UX design, visual design, research, strategy, microinteractions, business knowledge, AI design lifecycle, and more. Includes ui-ux-pro-max (50+ styles, 161 palettes, 57 font pairings), a new project bootstrap protocol that asks clarifying questions and scaffolds tokens/icons/components, automatic project state detection (MATURE/PARTIAL/NEW), and a rebuilt ux-design skill with 115 named rules and pre-delivery checklists.",
-  "version": "1.2.0",
+  "description": "Senior product designer agent for any stack. Stack-agnostic — reads the target repo's conventions at runtime. On first run, auto-detects project state (NEW/PARTIAL/MATURE) and persists the design system: writes docs/design.md, injects a strictly-additive design-first fenced block into CLAUDE.md, and updates docs/design.md on every design decision so context carries across sessions. Ships with 14 specialised skills (ui-ux-pro-max, ux-design, visual-design, frontend-design, microinteractions-animation, design-specializations, planning-strategy, research-discovery, technical-tools, tailwind-design-system, business-knowledge, aidlc, skill-creator) and a /sync-design-system slash command for explicit re-sync in mature repos.",
+  "version": "1.3.0",
   "author": {
     "name": "Waqar Ahmed"
   }
