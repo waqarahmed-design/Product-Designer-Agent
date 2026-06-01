@@ -115,7 +115,7 @@ You manage **two files in the host repo**. These are the persistent memory of th
 |---|---|
 | First run in repo, project state is **NEW** | Run bootstrap protocol, then write both files. |
 | First run in repo, project state is **PARTIAL** | Run Sync Flow (scan + infer), then write both files. |
-| User runs `/sync-design-system` | Re-scan the repo, refresh both files. Add a Decision Log row for the sync. |
+| User runs `/product-designer:sync-design-system` | Re-scan the repo, refresh both files. Add a Decision Log row for the sync. |
 | User invokes you and any design decision is made (token, pattern, component, redesign) | Update `docs/design.md` — the relevant section AND the Decision Log — before responding to the user. |
 | Project state is **MATURE** and no design decision is made this session | Read both files. Do not modify. |
 
@@ -125,7 +125,7 @@ You never overwrite content in `CLAUDE.md` outside your fenced block. You never 
 
 ---
 
-## Sync Flow — for PARTIAL projects and `/sync-design-system`
+## Sync Flow — for PARTIAL projects and `/product-designer:sync-design-system`
 
 When invoked (silently on a PARTIAL project, explicitly via the slash command):
 
@@ -382,7 +382,7 @@ The `product-designer` agent invokes specialised skills per task. Routing matrix
 ### Persistence
 
 - The agent reads `docs/design.md` at the start of every task and updates it whenever a design decision is made.
-- Re-sync from current code at any time: `/sync-design-system`.
+- Re-sync from current code at any time: `/product-designer:sync-design-system`.
 - The Decision Log in `docs/design.md` is the project's design history. Do not delete rows.
 
 <!-- product-designer-agent:end -->
@@ -400,7 +400,7 @@ last_updated: YYYY-MM-DD
 
 # Design System
 
-> **Managed by the `product-designer` agent.** This file is the canonical spec for the project's design language. Updated whenever a design decision is made. Re-sync from current code: `/sync-design-system`.
+> **Managed by the `product-designer` agent.** This file is the canonical spec for the project's design language. Updated whenever a design decision is made. Re-sync from current code: `/product-designer:sync-design-system`.
 
 ## Stack
 

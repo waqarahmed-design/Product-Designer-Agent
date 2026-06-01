@@ -2,7 +2,7 @@
 description: Scan this repo's existing tokens, components, and patterns; write the design system to docs/design.md; add the design-first fenced block to CLAUDE.md.
 ---
 
-You are running `/sync-design-system`. Hand this task to the **`product-designer`** agent.
+You are running `/product-designer:sync-design-system`. Hand this task to the **`product-designer`** agent.
 
 The agent should:
 

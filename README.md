@@ -15,7 +15,7 @@ Inside Claude Code, run:
 /plugin install product-designer@waqarahmed-design
 ```
 
-Restart Claude Code to load the agent, the `/sync-design-system` slash command, and all 13 skills.
+Restart Claude Code to load the agent, the `/product-designer:sync-design-system` slash command, and all 13 skills.
 
 > The first command registers this repo as a plugin marketplace; the second installs the plugin from it. (Claude Code's installer requires a marketplace manifest — `claude /install <url>` against a bare plugin repo does not work.)
 
@@ -30,7 +30,7 @@ The agent now **manages two files in every repo it runs in**:
 
 Both files are idempotent and additive. The agent never overwrites your existing CLAUDE.md content or destroys design decisions. It only writes inside its fenced block and updates `docs/design.md` over time.
 
-A new slash command — **`/sync-design-system`** — lets you trigger a full repo scan and refresh whenever you want (or run it once in a mature repo to populate `docs/design.md` from existing code).
+A new slash command — **`/product-designer:sync-design-system`** — lets you trigger a full repo scan and refresh whenever you want (or run it once in a mature repo to populate `docs/design.md` from existing code).
 
 ---
 
@@ -42,7 +42,7 @@ A new slash command — **`/sync-design-system`** — lets you trigger a full re
 
 ### Slash command
 
-**`/sync-design-system`** — Scans the current repo, captures tokens / components / patterns into `docs/design.md`, and adds the design-first fenced block to `CLAUDE.md`. Idempotent — safe to run repeatedly.
+**`/product-designer:sync-design-system`** — Scans the current repo, captures tokens / components / patterns into `docs/design.md`, and adds the design-first fenced block to `CLAUDE.md`. Idempotent — safe to run repeatedly.
 
 ### 13 specialised skills
 
@@ -73,7 +73,7 @@ Open Claude Code in your repo and either:
 1. **Run the explicit setup command:**
 
    ```
-   /sync-design-system
+   /product-designer:sync-design-system
    ```
 
    The agent scans your repo, populates `docs/design.md` with the design system it finds (tokens, components, patterns, anti-patterns), and adds the design-first fenced block to `CLAUDE.md`.
@@ -223,7 +223,7 @@ The agent uses your tokens, your components, your patterns. It doesn't impose a 
 
 ## Version history
 
-- **1.3.0** — Self-config behaviour. Manages `docs/design.md` + `CLAUDE.md` fenced block in every host repo. Strictly additive, idempotent. New `/sync-design-system` slash command. Agent definition refactored to be fully stack-agnostic (removed product-specific design system content from previous versions).
+- **1.3.0** — Self-config behaviour. Manages `docs/design.md` + `CLAUDE.md` fenced block in every host repo. Strictly additive, idempotent. New `/product-designer:sync-design-system` slash command. Agent definition refactored to be fully stack-agnostic (removed product-specific design system content from previous versions).
 - **1.2.0** — Added `ui-ux-pro-max` skill, bootstrap protocol, project state detection (MATURE / PARTIAL / NEW), and rebuilt `ux-design` skill with 115 named rules.
 - **1.1.0** — Skill loading fixes, flattened skill references, auto-discovery for undocumented projects.
 - **1.0.0** — Initial release. Agent + 13 specialised skills.

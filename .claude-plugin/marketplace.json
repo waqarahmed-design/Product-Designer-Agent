@@ -10,7 +10,7 @@
         "source": "url",
         "url": "https://github.com/waqarahmed-design/Product-Designer-Agent.git"
       },
-      "description": "Senior product designer agent for any product, any stack. Stack-agnostic — reads the target repo's conventions at runtime. On first run, auto-detects project state (NEW/PARTIAL/MATURE) and persists the design system: writes docs/design.md, injects a strictly-additive design-first fenced block into CLAUDE.md, and updates docs/design.md on every design decision so context carries across sessions. Ships with 13 specialised skills and a /sync-design-system slash command.",
+      "description": "Senior product designer agent for any product, any stack. Stack-agnostic — reads the target repo's conventions at runtime. On first run, auto-detects project state (NEW/PARTIAL/MATURE) and persists the design system: writes docs/design.md, injects a strictly-additive design-first fenced block into CLAUDE.md, and updates docs/design.md on every design decision so context carries across sessions. Ships with 13 specialised skills and a /product-designer:sync-design-system slash command.",
       "version": "1.3.0"
     }
   ]
