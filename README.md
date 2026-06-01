@@ -12,7 +12,7 @@ It thinks like a designer but communicates in code. It handles UI/UX design, des
 claude /install https://github.com/waqarahmed-design/Product-Designer-Agent
 ```
 
-That's it. The agent, the `/sync-design-system` slash command, and all 14 skills are available in your Claude Code immediately.
+That's it. The agent, the `/sync-design-system` slash command, and all 13 skills are available in your Claude Code immediately.
 
 ---
 
@@ -39,7 +39,7 @@ A new slash command — **`/sync-design-system`** — lets you trigger a full re
 
 **`/sync-design-system`** — Scans the current repo, captures tokens / components / patterns into `docs/design.md`, and adds the design-first fenced block to `CLAUDE.md`. Idempotent — safe to run repeatedly.
 
-### 14 specialised skills
+### 13 specialised skills
 
 | Skill | What it covers |
 |---|---|
