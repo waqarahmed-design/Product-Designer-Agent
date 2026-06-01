@@ -8,11 +8,16 @@ It thinks like a designer but communicates in code. It handles UI/UX design, des
 
 ## Installation
 
-```bash
-claude /install https://github.com/waqarahmed-design/Product-Designer-Agent
+Inside Claude Code, run:
+
+```
+/plugin marketplace add waqarahmed-design/Product-Designer-Agent
+/plugin install product-designer@waqarahmed-design
 ```
 
-That's it. The agent, the `/sync-design-system` slash command, and all 13 skills are available in your Claude Code immediately.
+Restart Claude Code to load the agent, the `/sync-design-system` slash command, and all 13 skills.
+
+> The first command registers this repo as a plugin marketplace; the second installs the plugin from it. (Claude Code's installer requires a marketplace manifest — `claude /install <url>` against a bare plugin repo does not work.)
 
 ---
 
